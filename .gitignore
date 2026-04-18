@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+instance/
+.env
+Pipfile.lock
+*.db
+flask_session/

@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+    /* FULL PAGE CENTER */
+    .login-wrapper {
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-box {
+        background-color: #262626;
+        padding: 40px;
+        border-radius: 16px;
+        width: 100%;
+        max-width: 400px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    .login-title {
+        color: #F1EFE8;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .login-sub {
+        color: #D3D1C7;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .form-control {
+        background-color: #1A1A1A;
+        border: 1px solid #444;
+        color: #F1EFE8;
+        padding: 12px;
+    }
+
+    .form-control:focus {
+        background-color: #1A1A1A;
+        color: #fff;
+        border-color: #F0997B;
+        box-shadow: none;
+    }
+
+    .login-btn {
+        background-color: #D85A30;
+        color: #F1EFE8;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .brand {
+        color: #F0997B;
+        font-weight: 600;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="login-wrapper">
+    <div class="login-box">
+        <div class="login-title">
+            Welcome back
+        </div>
+        <div class="login-sub">
+            Sign in to <span class="brand">unfiltered.</span>
+        </div>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Username" class="form-control mb-3">
+            <input type="password" name="password" placeholder="Password" class="form-control mb-3">
+            <button class="login-btn">
+                Log in
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}

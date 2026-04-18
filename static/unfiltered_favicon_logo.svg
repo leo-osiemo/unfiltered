@@ -1,0 +1,50 @@
+<svg width="100%" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Unfiltered podcast favicon logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A square favicon logo for the Unfiltered podcast with a dark background, stylised U letterform and soundwave detail in coral/orange</desc>
+
+  
+
+  <!-- ── LARGE 400px favicon square, centred at 340,260 ── -->
+  <g transform="translate(140, 60)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+    <!-- Card background -->
+    <rect x="0" y="0" width="400" height="400" rx="40" fill="#1a1a1a" style="fill:rgb(26, 26, 26);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Coral accent bar top-left (brand colour echo) -->
+    <rect x="32" y="32" width="40" height="4" rx="2" fill="#e87a5d" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── Soundwave bars (behind the U, decorative) ── -->
+    <!-- Left cluster -->
+    <rect x="48" y="168" width="10" height="64" rx="5" fill="#e87a5d" opacity="0.25" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="64" y="148" width="10" height="104" rx="5" fill="#e87a5d" opacity="0.35" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="80" y="188" width="10" height="44" rx="5" fill="#e87a5d" opacity="0.20" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Right cluster -->
+    <rect x="310" y="168" width="10" height="64" rx="5" fill="#e87a5d" opacity="0.20" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.2;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="326" y="148" width="10" height="104" rx="5" fill="#e87a5d" opacity="0.35" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <rect x="342" y="188" width="10" height="44" rx="5" fill="#e87a5d" opacity="0.25" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── Big U letterform ── -->
+    <!-- Left leg -->
+    <rect x="112" y="110" width="44" height="160" rx="8" fill="#f0f0f0" style="fill:rgb(240, 240, 240);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Right leg -->
+    <rect x="244" y="110" width="44" height="160" rx="8" fill="#f0f0f0" style="fill:rgb(240, 240, 240);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Bottom curve (semi-circle via path) -->
+    <path d="M112 248 Q112 310 200 310 Q288 310 288 248" fill="none" stroke="#f0f0f0" stroke-width="44" stroke-linecap="round" style="fill:none;stroke:rgb(240, 240, 240);color:rgb(251, 251, 254);stroke-width:44px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Coral dot accent inside the U bowl -->
+    <circle cx="200" cy="295" r="8" fill="#e87a5d" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- ── Wordmark ── -->
+    <text x="200" y="358" text-anchor="middle" font-family="var(--font-sans)" font-size="18" font-weight="500" letter-spacing="6" fill="#e87a5d" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Anthropic Sans, sans-serif;font-size:18px;font-weight:500;text-anchor:middle;dominant-baseline:auto">UNFILTERED</text>
+
+    <!-- Tiny dot separator -->
+    <circle cx="200" cy="376" r="2.5" fill="#e87a5d" opacity="0.6" style="fill:rgb(232, 122, 93);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  </g>
+
+  <!-- Labels below -->
+  <text x="340" y="490" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Anthropic Sans, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Favicon logo — 400 × 400</text>
+  <text x="340" y="507" style="fill:rgb(156, 154, 146);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Anthropic Sans, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Copy the SVG or screenshot to use as favicon</text>
+
+</svg>

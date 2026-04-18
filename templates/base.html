@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfiltered</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {{ bootstrap.load_css() }}
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #1A1A1A;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .highlight {
+            color: #F0997B;
+        }
+        .custom-footer {
+        background-color: #f1efe8;
+        color: #2C2C2A;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 100%;
+        margin-top: auto;
+        }
+    </style>
+
+    {% block styles %}{% endblock %}
+</head>
+
+<body>
+
+    <!-- ✅ NAVBAR (YOUR STYLE PRESERVED) -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark"
+        style="min-height: 50px; padding: 2px 0; background-color: #1A1A1A">
+
+        <div class="container-fluid">
+
+            <!-- BRAND -->
+            <a class="navbar-brand ms-5 highlight" href="/" style="font-weight: 700; font-size: 18px;">
+                unfiltered.
+            </a>
+
+            <!-- TOGGLER -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- LINKS -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto me-5" style="font-size: smaller;">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/posts">Posts</a>
+                    </li>
+
+                    {% if session.get('user') %}
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/create_post">Create Post</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">👤</a>
+                    </li>
+
+                    {% else %}
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Log in</a>
+                    </li>
+
+                    {% endif %}
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    {% block content %}{% endblock %}
+        <footer class="custom-footer">
+            by the innocent; those who choose to say the truth!
+        </footer>
+    <!-- IMPORTANT FOR NAVBAR TO WORK -->
+    {{ bootstrap.load_js() }}
+
+</body>
+
+</html>

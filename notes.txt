@@ -1,0 +1,42 @@
+1. create a super class of your choice with no less than three instance variables and two methods
+2. create a child class inheriting from the super class
+3. While creating an object do not pass the attributes directly rather get the input froom a user
+
+
+Databases
+    - categories
+        - relationaal Databases / sql
+            - sqlite3
+            - postgresql
+        - relationship
+            - one to one
+            - one to many
+            - many to many
+        - non relational / no-sql
+            - mongo
+
+Http
+    - http verbs 
+        - get
+            - everything
+            - single
+        - post 
+        - put
+        - patch
+        - delete
+
+
+Assignment
+1. create an account on github and watch an intro video to git
+2. watch video on bootstrap - complete
+3. Design the index page - not yet complete
+3. design profile to look like an actualk profule
+4. read on what an API \
+5. check what status quotes are
+6. fix the error and esnur
+7. switch from using online bootstrap to flask-bootstrap
+
+---------------------------------
+1. retrive all the data from the db and dispplay it in a table 
+2. write a view for for the abbove to return an api response
+3. creaette an authhenticatiion sysstem 
