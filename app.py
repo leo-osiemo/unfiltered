@@ -84,5 +84,8 @@ def posts():
 def post(id):
     post = Post.query.get_or_404(id)
     return render_template("post.html", post=post)
+@app.route('/googlea22de48551bc6f6f.html')
+def google_verify():
+    return open('/home/leoosiemo/unfiltered/googlea22de48551bc6f6f.html').read()
 if __name__ == "__main__":
     app.run(debug=True)
