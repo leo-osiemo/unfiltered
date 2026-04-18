@@ -87,5 +87,16 @@ def post(id):
 @app.route('/googlea22de48551bc6f6f.html')
 def google_verify():
     return open('/home/leoosiemo/unfiltered/googlea22de48551bc6f6f.html').read()
+@app.route('/sitemap.xml')
+def sitemap():
+    posts = Post.query.order_by(Post.date.desc()).all()
+    xml = '<?xml version="1.0" encoding="UTF-8"?>'
+    xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    xml += '<url><loc>https://leoosiemo.pythonanywhere.com/</loc></url>'
+    xml += '<url><loc>https://leoosiemo.pythonanywhere.com/posts</loc></url>'
+    for post in posts:
+        xml += f'<url><loc>https://leoosiemo.pythonanywhere.com/post/{post.id}</loc></url>'
+    xml += '</urlset>'
+    return xml, 200, {'Content-Type': 'application/xml'}
 if __name__ == "__main__":
     app.run(debug=True)
